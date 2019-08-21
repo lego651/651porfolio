@@ -5,18 +5,9 @@ import './style.css'
 
 const Feature = () => {
   return(
-    <div className="feature-container ">
+    <div className="feature-container">
       <div className="feature-row row">
-        <div className="col-lg-3 card-wrapper">
-          <Card />
-        </div>
-        <div className="col-lg-3 card-wrapper">
-          <Card />
-        </div>
-        <div className="col-lg-3 card-wrapper">
-          <Card />
-        </div>
-        <div className="col-lg-3 card-wrapper">
+        <div className="card-wrapper">
           <Card />
         </div>
       </div>

@@ -10,9 +10,10 @@
 .feature-container .row {
   transform: skewY(5deg);
   margin: 0 10%;
-  width: 80%;
+  width: 90%;
   /* background-color: yellow; */
 }
-.feature-container .card-wrapper {
-  margin: 20px 0;
+.card-wrapper{
+  display: inline-block;
+
 }
